@@ -13,7 +13,7 @@ public class HealthCheckController {
 	@GetMapping("/ping") // 넌 지금부터 API(Handler) 야! 라고 붙여주는거
 	public String method() {
 		System.out.println("ping 버튼눌렸다!!!");
-		return "pong";
+		return "pong2";
 	}
 
 	/**
